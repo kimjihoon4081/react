@@ -26,7 +26,7 @@ const IterationSample = () => {
     // 이벤트 객체를 파라미터로 받아서 inputText 값 변경
     const onChange = e => setInputText(e.target.value);
 
-    // 배열의 내장함수 concat : 요소 추가 함수
+    // 배열의 내장함수 concat : 요소 추가 함수 
     const onClick = () => {
         const nextNames = names.concat({
             id : nextId,
